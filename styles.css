@@ -1,0 +1,480 @@
+@font-face{
+    font-family:'Rabar_021';
+    src: url('/font/Rabar_021.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Aleo:ital,wght@0,100..900;1,100..900&family=Alexandria:wght@100..900&family=Anton&family=Boldonse&family=Comfortaa:wght@300..700&family=Gidole&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Aleo:ital,wght@0,100..900;1,100..900&family=Alexandria:wght@100..900&family=Anton&family=Boldonse&family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    direction: ltr;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family:'Rabar_021' ,  sans-serif;
+    /* font-family: "Rabar_021"; */
+}
+
+:root{
+    --bg-black:#000000;
+    --secoundary-color:#ff00ff;
+    --instagram: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    --color-me:#2e0046;
+    --whatsapp:#24cc63;
+    --korek:#005fa8;;
+    --white-color:#FFFFFF;
+    --main-color:#F03153;
+    --yellow-color:#FFC700;
+    --my-font:"Poppins";
+    --aqua-color-:#5ff8f3;
+}
+
+
+body{
+    background: var(--color-me);
+    /* width: 100%; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header .cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 96rem;
+    height: 15rem;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+header .cover .image-user{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: center; */
+    
+}
+
+header .cover .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    /* background: var(--yellow-color); */
+    padding:7px 23px;
+    opacity: 0.8;
+    /* border-top-right-radius: 0%; */
+    z-index: 5;
+    gap: 5px;
+    
+}
+
+header .cover .title .username , i{
+    color: var(--white-color);
+    font-size: 1.2rem;
+    
+}
+
+header .cover #loc{
+    color: var(--yellow-color);
+}
+
+
+section{
+    width: 100%;
+    /* height: 85vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    position: relative;
+
+    background: var(--color-me);
+    margin-bottom: 100px;
+    /* box-shadow: 0px 15px 50px 17px #bbbbbb; */
+    z-index: 4;
+
+}
+
+section .tiktok-user{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+section .tiktok-user a{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--white-color);
+    gap: 0.8rem;
+    
+    
+    
+}
+
+
+section .tiktok-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-black);
+    width: fit-content;
+    padding: 0px 15px;
+    border-radius: 100px;
+    height: 35px;
+    margin-top: 50px;
+
+}
+
+section .tiktok-user a img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    
+
+}
+
+
+
+section .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    /* margin-top: 50px; */
+    margin-left: 49px;
+
+    
+}
+
+section .title h3{
+    color: var(--aqua-color-);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1rem;
+
+}
+
+section .title .title-desc {
+    color: var(--yellow-color);
+    font-size: 1.2rem;
+
+}
+
+section .title .title-desc-badine{
+    color: var(--white-color);
+    font-size: 1.2rem;
+
+}
+
+
+
+
+section .social-media{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 40px;
+    animation: sparkMove 2s linear 2;
+    animation-delay: 1s;
+    margin-left: 50px;
+
+}
+
+section .social-media a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: var(--white-color);
+
+
+    /* background: var(--white-color); */
+    width: 93%;
+    height: 47px;
+    border-radius: 8px;
+}
+
+section .social-media a img{
+    height: 25px;
+    width: 25px;
+
+}
+
+section .social-media a .spark{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0) 70%);
+    opacity: 0.6;
+    /* animation: sparkMove 2s linear 2;
+    animation-delay: 1s; */
+
+}
+
+
+
+
+@keyframes sparkMove {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+  .button img {
+    margin-right: 25px;
+    width: 25px;
+  }
+  .button:not(#tiktok) img {
+    position: absolute;
+    left: 27%;
+  }
+  .button:not(#tiktok) > p {
+    position: absolute;
+    right: 28%;
+    width: 100px;
+    text-align: center;
+  }
+  .button a p {
+    position: absolute;
+    top: -20px;
+  }
+  #tiktok {
+    width: fit-content;
+    padding: 0px 15px;
+    border-radius: 100px;
+    height: 35px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  #tiktok img {
+    margin-right: 8px;
+  }
+  #whatsapp {
+      background-color: #24cc63;
+  }
+  #viber {
+      background-color: #735ff2;
+  }
+  #korek {
+      background-color: #005fa8;
+  }
+  #asia {
+      background-color: #e7242a;
+  }
+  #zain, #tiktok {
+      background-color: black;
+  }
+  #instagram {
+      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+      animation: jump 0.6s ease-in-out 2;
+      animation-delay: 3s;
+  }
+  #telegram {
+      background-color: #24A1DE;
+
+  }
+  #messenger {
+      background-color: #0074f7;
+  }
+  #custom {
+      background-color: black;
+  }
+  #zain img, #korek img, #asia img {
+    width: 20px;
+  }
+  @keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+    
+}
+@media (max-width: 320px) {
+  .button:not(#tiktok) img {
+    left: 12%;
+  }
+}
+
+
+
+section .social-media #whatsapp{
+    background-color: #24cc63;
+}
+
+section .social-media #instagram{
+    
+        background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+        animation: jump 0.6s ease-in-out 2;
+        animation-delay: 3s;
+    
+    background-color: #24cc63;
+}
+
+section .social-media #snapchat {
+
+    background-color:#fffc00;
+}
+
+section .social-media #korek {
+     background-color: var(--korek);
+}
+
+
+
+
+
+    
+    
+     footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background: var(--color-me); */
+       
+        
+    }
+    
+    
+    footer .title{
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    border-radius: 10px;
+    gap: 5px;
+
+}
+
+     footer .title .txt-ads{
+        color: var(--white-color);
+        font-size: 1.2rem;
+    }
+    
+      footer .title .txt-user{
+        color: var(--yellow-color);
+        font-size: 1.2rem;
+        font-family: "Gidole", sans-serif;
+        
+        
+        
+    }
+    
+
+    @media (max-width: 480px){
+
+         /* header{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        } 
+         */
+
+
+
+        /* header .cover{
+            position: relative;
+            width: 92%;
+            height: 10rem;
+            
+         
+        
+        }  */
+/*             
+        header .cover .image-user{
+            width: 100%;
+            /* height: 100%; */
+            /* object-fit: cover; */
+            /* object-position: center; */
+            
+        */
+        
+         
+
+        
+        
+        header .cover .title{
+            width: 90%;
+            left: 50px;
+            bottom: 0px;
+            padding: 4px;
+            opacity: 0.8;
+    
+    }    
+
+
+    section{
+        width: 90%;
+    
+    
+        position: relative;
+    
+        background: var(--color-me);
+        margin-bottom: 0px;
+        /* box-shadow: 50px 10px 0px 0px var(--white-color); */
+        z-index: 4;
+    
+    }
+    
+    section .tiktok-user{
+        width: 50%;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        
+        
+        
+    }
+
+    header .cover .title {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        gap: 5px;
+    
+    
+
+}
+
+    
+    }
